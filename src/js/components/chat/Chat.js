@@ -34,11 +34,11 @@ export default class Chat {
   }
 
   render() {
-    this.container.insertAdjacentHTML('beforeend', this.markup());
+    this.container.insertAdjacentHTML('beforeend', Chat.markup());
     this.containerChat = this.container.querySelector('.chat');
   }
 
-  markup () {
+  static markup() {
     return `
       <div class="chat">
         <div class="chat_btn"></div>

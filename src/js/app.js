@@ -1,5 +1,5 @@
 import Collapse from './Collapse';
-import Chat from "./components/chat/Chat";
+import Chat from './components/chat/Chat';
 
 const collapse = new Collapse(document.querySelector('.collapse'));
 collapse.init();
